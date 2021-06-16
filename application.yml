@@ -1,7 +1,7 @@
 #database configuration
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/rentcar?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/rentcarprofile?createDatabaseIfNotExist=true
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -9,5 +9,5 @@ spring:
     hibernate:
       name:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: update
+      ddl-auto: create
       dialect: org.hibernate.dialect.MySQL5Dialect
