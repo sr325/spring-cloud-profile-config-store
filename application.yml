@@ -9,5 +9,5 @@ spring:
     hibernate:
       name:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: create
+#       ddl-auto: create
       dialect: org.hibernate.dialect.MySQL5Dialect
